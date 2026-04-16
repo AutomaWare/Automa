@@ -124,6 +124,9 @@ section{padding:7rem 0}
 .cta-link:hover{background:rgba(248,246,240,.1);border-color:rgba(248,246,240,.3)}
 .cta-link.whatsapp{background:#25d366;border-color:#25d366;color:#fff;font-weight:600}
 .cta-link.whatsapp:hover{background:#1ebe5d;border-color:#1ebe5d}
+.cta-copy{background:none;cursor:pointer;font-family:inherit;letter-spacing:inherit}
+.cta-copy .copy-icon{font-size:.75rem;opacity:.6}
+.cta-copy.copied{border-color:var(--teal);color:var(--teal)}
 
 footer{padding:2.5rem 0;text-align:center;font-size:.8rem;color:var(--muted);border-top:1px solid var(--light)}
 footer span{color:var(--teal)}

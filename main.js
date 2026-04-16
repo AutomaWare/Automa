@@ -1,3 +1,14 @@
+// Copy email
+function copyEmail() {
+  navigator.clipboard.writeText('automa610@gmail.com').then(() => {
+    const btn = document.querySelector('.cta-copy');
+    const orig = btn.innerHTML;
+    btn.innerHTML = '✓ Copiat!';
+    btn.classList.add('copied');
+    setTimeout(() => { btn.innerHTML = orig; btn.classList.remove('copied'); }, 2000);
+  });
+}
+
 // i18n
 const t = {
   ca: {
