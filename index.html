@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Automa · Consultoria Informàtica</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <img src="automa-logo-v5.svg" alt="Automa" class="nav-logo">
+    <div class="nav-links">
+      <a href="#servicios" data-i18n="nav_services">Serveis</a>
+      <a href="#about" data-i18n="nav_about">Sobre mi</a>
+      <div class="lang-switch">
+        <button class="lang-btn active" data-lang="ca">CA</button>
+        <button class="lang-btn" data-lang="es">ES</button>
+      </div>
+      <a href="#contacto" class="nav-cta" data-i18n="nav_cta">Contactar</a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-grid">
+      <div class="hero-content">
+        <div class="hero-tag"><span></span> <span data-i18n="hero_tag">Consultoria informàtica</span></div>
+        <h1 data-i18n="hero_title">Digitalitza el teu negoci amb solucions <span>a mida</span></h1>
+        <p class="hero-desc" data-i18n="hero_desc">Desenvolupament web, aplicacions mòbils i bots d'intel·ligència artificial per a empreses que volen créixer i automatitzar els seus processos.</p>
+        <div class="hero-actions">
+          <a href="#contacto" class="btn btn-dark" data-i18n="hero_btn1">Demanar pressupost →</a>
+          <a href="#servicios" class="btn btn-outline" data-i18n="hero_btn2">Serveis</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-card">
+          <img src="automa-logo-v5.svg" alt="Automa" class="hero-card-logo">
+          <div class="hero-card-metrics">
+            <div class="metric"><div class="metric-value">3+</div><div class="metric-label" data-i18n="m_years">Anys exp.</div></div>
+            <div class="metric"><div class="metric-value">Full</div><div class="metric-label">Stack Dev</div></div>
+            <div class="metric"><div class="metric-value">24/7</div><div class="metric-label">Bots IA</div></div>
+            <div class="metric"><div class="metric-value">100%</div><div class="metric-label" data-i18n="m_custom">A mida</div></div>
+          </div>
+          <div class="hero-float hero-float-1"><span class="dot dot-green"></span> <span data-i18n="float_bot">Bot actiu</span></div>
+          <div class="hero-float hero-float-2"><span class="dot dot-blue"></span> Terrassa, CAT</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICIOS -->
+<section id="servicios">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-tag" data-i18n="services_tag">Serveis</div>
+      <h2 class="section-title" data-i18n="services_title">Tot el que necessites per digitalitzar-te</h2>
+      <p class="section-sub" data-i18n="services_sub">Solucions reals, sense plantilles. Cada projecte es dissenya i programa des de zero.</p>
+    </div>
+    <div class="services-grid">
+      <div class="s-card reveal">
+        <span class="s-num">01</span>
+        <div class="s-icon">◈</div>
+        <h3 data-i18n="s1_title">Pàgines web</h3>
+        <p data-i18n="s1_desc">Webs ràpides, responsives i optimitzades per a SEO. Landing pages, e-commerce i portals corporatius amb les tecnologies més actuals.</p>
+        <ul><li>React</li><li>Angular</li><li>SEO</li><li>E-commerce</li></ul>
+      </div>
+      <div class="s-card reveal">
+        <span class="s-num">02</span>
+        <div class="s-icon">⬡</div>
+        <h3 data-i18n="s2_title">Apps d'escriptori i mòbil</h3>
+        <p data-i18n="s2_desc">Aplicacions natives i multiplataforma per a iOS, Android i escriptori. Des d'eines internes fins a productes SaaS.</p>
+        <ul><li>iOS</li><li>Android</li><li>Desktop</li><li>SaaS</li></ul>
+      </div>
+      <div class="s-card reveal">
+        <span class="s-num">03</span>
+        <div class="s-icon">△</div>
+        <h3 data-i18n="s3_title">Bots de vídeo i trucada</h3>
+        <p data-i18n="s3_desc">Agents d'IA que atenen trucades i videotrucades 24/7. Reserves, suport i vendes amb veu natural i intel·ligència artificial.</p>
+        <ul><li>Vapi.ai</li><li>Claude AI</li><li data-i18n="s3_tag_voice">Veu natural</li><li>24/7</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="container">
+    <div class="about-content reveal">
+      <div class="section-tag" data-i18n="about_tag">Sobre mi</div>
+      <h2>Pol</h2>
+      <p data-i18n="about_p1">Programador full stack amb 3 anys d'experiència en el sector. Especialitzat en desenvolupament frontend amb Angular i React, backends robustos amb Java Spring Boot, i integracions avançades amb intel·ligència artificial.</p>
+      <p data-i18n="about_p2">Treballo amb empreses que busquen solucions digitals reals — sense fum, sense plantilles. Cada projecte es construeix des de zero, adaptat a les necessitats del client.</p>
+      <div class="about-highlights">
+        <div class="highlight"><div class="highlight-val">3+</div><div class="highlight-label" data-i18n="h_years">Anys d'experiència</div></div>
+        <div class="highlight"><div class="highlight-val">Full Stack</div><div class="highlight-label" data-i18n="h_dev">Desenvolupador</div></div>
+        <div class="highlight"><div class="highlight-val">IA</div><div class="highlight-label" data-i18n="h_ai">Integrada</div></div>
+      </div>
+      <div class="tech-stack">
+        <span class="tech">Angular</span>
+        <span class="tech">React</span>
+        <span class="tech">TypeScript</span>
+        <span class="tech">Java Spring Boot</span>
+        <span class="tech">Node.js</span>
+        <span class="tech">Python</span>
+        <span class="tech">Vapi.ai</span>
+        <span class="tech">Claude AI</span>
+        <span class="tech">Three.js</span>
+        <span class="tech">PrimeNG</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto">
+  <div class="container">
+    <div class="cta-box reveal">
+      <div class="cta-tag" data-i18n="cta_tag">Contacte</div>
+      <h2 class="cta-title" data-i18n="cta_title">Tens un projecte en ment? Parlem.</h2>
+      <a href="tel:+34618580489" class="cta-phone">618 580 489</a>
+      <div class="cta-links">
+        <a href="tel:+34618580489" class="cta-link" data-i18n="cta_call">📞 Trucar</a>
+        <a href="https://wa.me/34618580489" class="cta-link whatsapp" target="_blank">💬 WhatsApp</a>
+        <a href="mailto:automa610@gmail.com" class="cta-link">✉ Email</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">© 2026 <span>Automa</span> · Pol · Terrassa, Catalunya</div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

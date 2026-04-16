@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+
+  <!-- Background -->
+  <rect width="500" height="500" fill="#1C2B3A" rx="80"/>
+
+  <!--
+    Classic A: solid filled shape
+    Apex at top-center (250, 90)
+    Bottom-left (155, 340), bottom-right (345, 340)
+    Thick strokes, flat top cap (not sharp)
+    Then subtract inner triangle to create hollow A
+    Drawn as a single compound path: outer outline then inner cutout
+  -->
+  <path
+    d="
+      M 250 90
+      L 145 340
+      L 185 340
+      L 250 155
+      L 315 340
+      L 355 340
+      Z
+    "
+    fill="#F8F6F0"
+  />
+
+  <!-- Teal crossbar covering the inner gap -->
+  <rect x="186" y="243" width="128" height="20" rx="6" fill="#F8F6F0"/>
+
+  <!-- Wordmark -->
+  <text
+    x="250"
+    y="415"
+    text-anchor="middle"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="50"
+    font-weight="400"
+    fill="#F8F6F0"
+    letter-spacing="13"
+  >AUTOMA</text>
+
+</svg>
